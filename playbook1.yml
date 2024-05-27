@@ -3,4 +3,4 @@
   hosts: all
   tasks:
     - name: Test
-      cmd: echo "This is test"
+      shell: echo "This is test"
