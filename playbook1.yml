@@ -1,12 +1,6 @@
 ---
-
 - name: Intro to Ansible Playbooks
-
   hosts: all
-
-
-
   tasks:
-
-  - name: Test
-    cmd: echo "This is test"
+    - name: Test
+      cmd: echo "This is test"
